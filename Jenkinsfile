@@ -9,8 +9,8 @@ pipeline {
                 cat /etc/*release*
 		hostname -i
 		echo "ls before copy"; ls; pwd
-		mkdir -p /opt/SP/apps/
-		cp $WORKSPACE/* /opt/SP/apps/.
+		#mkdir -p /opt/SP/apps/
+		#cp $WORKSPACE/* /opt/SP/apps/.
 		ls /opt/SP/apps
 		whoami
 		'''
