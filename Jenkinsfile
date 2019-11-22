@@ -7,7 +7,6 @@ pipeline {
             steps {
 		sh '''
                 cat /etc/*release*
-		whoami
 		hostname -i
 		echo "ls before copy"; ls; pwd
 		cp $WORKSPACE/* /opt/SP/apps/.
