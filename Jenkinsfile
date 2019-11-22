@@ -9,11 +9,10 @@ pipeline {
                 cat /etc/*release*
 		hostname -i
 		echo "ls before copy"; ls; pwd
+		sleep 100
 		#mkdir -p /opt/SP/apps/
 		#cp $WORKSPACE/* /opt/SP/apps/.
-		ls /opt/SP/apps
 		whoami
-		sleep 100
 		'''
             }
         }
