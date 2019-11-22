@@ -13,6 +13,7 @@ pipeline {
 		#cp $WORKSPACE/* /opt/SP/apps/.
 		ls /opt/SP/apps
 		whoami
+		sleep 100
 		'''
             }
         }
